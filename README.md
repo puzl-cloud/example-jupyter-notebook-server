@@ -13,7 +13,7 @@ All the requirements are installing in `run.sh` file, which should be set as a D
 
 ### Docker image
 
-Choose any Docker image, contains needed version of Python or use preset image in Puzl cloud](https://puzl.ee)
+Choose any Docker image, contains needed version of Python or use pre-defined image from [Puzl cloud](https://puzl.ee)
 
 ### Git repository
 To use your repo from Github without ssh inside a Docker container, [generate](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and use personal access token.
