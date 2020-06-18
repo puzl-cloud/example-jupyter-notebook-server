@@ -13,7 +13,7 @@ All the requirements are installing in `run.sh` file, which should be set as a D
 
 ### Docker image
 
-Choose any Docker image, contains needed version of Python or use pre-defined image from [Puzl cloud](https://puzl.ee)
+Choose any Docker image, contains needed version of Python or use any pre-defined machine learning image from [Puzl cloud](https://puzl.ee).
 
 ### Git repository
 To use your repo from Github without ssh inside a Docker container, [generate](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and use personal access token.
@@ -47,7 +47,7 @@ After your pod is up and running in Kubernetes cluster:
 
 ## Using SSL for encrypted communication
 
-Ignore browser errors because self-signed certificate is used
+Ignore browser errors because self-signed certificate is used.
 
 If you don't need ssl:
 1. Comment 1 line in `run.sh`
