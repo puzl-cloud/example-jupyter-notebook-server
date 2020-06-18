@@ -47,6 +47,8 @@ After your pod is up and running in Kubernetes cluster:
 
 ## Using SSL for encrypted communication
 
+Ignore browser errors because self-signed certificate is used
+
 If not need it, comment line in run.sh
 
 ```
