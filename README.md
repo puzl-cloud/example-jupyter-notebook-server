@@ -49,17 +49,15 @@ After your pod is up and running in Kubernetes cluster:
 
 Ignore browser errors because self-signed certificate is used
 
-If not need it, comment line in run.sh
+If not need it, comment 1 line in `run.sh`
 
 ```
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /tmp/mykey.key -out /tmp/mycert.pem
 ```
 
-and
+and 2 lines in `jupyter_notebook_config.py`
 
 ```
 c.NotebookApp.certfile = '/tmp/mycert.pem'
 c.NotebookApp.keyfile = '/tmp/mykey.key'
 ```
-
-in jupyter_notebook_config.py
