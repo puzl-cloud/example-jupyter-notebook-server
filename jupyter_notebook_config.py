@@ -1,6 +1,6 @@
 # Set options for certfile, ip, password, and toggle off
-#c.NotebookApp.certfile = '/tmp/mycert.pem'
-#c.NotebookApp.keyfile = '/tmp/mykey.key'
+c.NotebookApp.certfile = '/tmp/mycert.pem'
+c.NotebookApp.keyfile = '/tmp/mykey.key'
 
 # Set ip to '*' to bind on all interfaces (ips) for the public server
 c.NotebookApp.ip = '*'

@@ -43,17 +43,17 @@ After your pod is up and running in Puzl Kubernetes cluster, view logs and copy 
 
 ## Using SSL for encrypted communication
 
-If need it, uncomment line in run.sh
+If not need it, comment line in run.sh
 
 ```
-#openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /tmp/mykey.key -out /tmp/mycert.pem
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /tmp/mykey.key -out /tmp/mycert.pem
 ```
 
 and
 
 ```
-#c.NotebookApp.certfile = '/tmp/mycert.pem'
-#c.NotebookApp.keyfile = '/tmp/mykey.key'
+c.NotebookApp.certfile = '/tmp/mycert.pem'
+c.NotebookApp.keyfile = '/tmp/mykey.key'
 ```
 
 in jupyter_notebook_config.py
