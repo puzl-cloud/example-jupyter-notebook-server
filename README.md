@@ -27,7 +27,7 @@ This will install all `requirements.txt` and run application then.
 bash ./run.sh
 ```
 
-### Swagger port
+### Jupyter port
 
 Add port `8888` via Puzl dashboard.
 
