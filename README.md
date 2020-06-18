@@ -37,7 +37,11 @@ Kubernetes `Service` will be created for your pod automatically.
 
 ## Use
 
-After your pod is up and running in Puzl Kubernetes cluster, view logs and copy token. Now you can access it by a given external port and host name.
+After your pod is up and running in Kubernetes cluster:
+1. View logs of this pod.
+2. Find Jupyter access token in logs.
+3. Copy token.
+4. Access your Jupyter by a given external port and host name with `YOUR_TOKEN` copied from pod's logs.
 
 `http://host:external_port/?token=YOUR_TOKEN`
 
