@@ -13,7 +13,11 @@ All the requirements are installing in `run.sh` file, which should be set as a D
 
 ### Docker image
 
-Choose any Docker image, contains needed version of Python or use any pre-defined machine learning image from [Puzl cloud](https://puzl.ee).
+Choose any Docker image, contains:
+1. Needed version of Python.
+2. Jupyter Notebook.
+
+or use any pre-defined machine learning image from [Puzl cloud](https://puzl.ee). You can [find dockerfiles here](https://github.com/puzl-ee/create-custom-docker-image/tree/master/example).
 
 ### Git repository
 To use your repo from Github without ssh inside a Docker container, [generate](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and use personal access token.
