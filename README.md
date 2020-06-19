@@ -35,6 +35,11 @@ Add port `8888` via Puzl dashboard.
 
 Kubernetes `Service` will be created for your pod automatically.
 
+### Environment variables
+`NOTEBOOK_DIR` - optional path to Jupyter directory, default is `/media`
+
+> **Notice:** if you use Puzl dashboard, we highly recommend to create a volume and put its path `/media/%volume_name%` to `NOTEBOOK_DIR`
+
 ## Use
 
 After your pod is up and running in Kubernetes cluster:
